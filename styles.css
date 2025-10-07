@@ -1,0 +1,24 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+}
+#tab-bar {
+  display: flex;
+  align-items: center;
+  background-color: #ffb6c1;
+  padding: 8px;
+}
+#new-tab {
+  font-size: 20px;
+  padding: 5px 10px;
+  background: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.tab-frame {
+  width: 100%;
+  height: calc(100vh - 50px);
+  border: none;
+}
